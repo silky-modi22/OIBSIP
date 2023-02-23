@@ -113,7 +113,11 @@ section{
 .home-content p{ 
     color: var(--white); 
     font-size: 1.6rem;
-}  
+}   
+ .demo img{ 
+    width: 80%;  
+ 
+ }
 .social-media a{  
     display: inline-flex; 
     justify-content: center; 
