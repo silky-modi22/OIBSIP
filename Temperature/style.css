@@ -1,0 +1,92 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+body{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;  
+    background-image: url(image/temp-bg.png); 
+    background-repeat: no-repeat;
+    background-size: 1600px 800px;
+
+    
+}  
+
+.container{ 
+    max-width: 540px; 
+    background-color: rgb(2, 2, 32); 
+  border-radius: 8px; 
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.974);
+  font-family:sans-serif; 
+  padding: 20px;  
+  min-height: 460px;
+
+} 
+.title{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 20px; 
+
+} 
+.icon{ 
+    font-size: 43px; 
+    color: wheat; 
+    margin-left: 435px; 
+    margin-top: -64px;
+} 
+h1{ 
+    color: aliceblue; 
+    letter-spacing: 1.3px;
+
+} 
+#celcius, #fahrenheit, #kelvin {  
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 25px; 
+}   
+input{ 
+    flex: 5; 
+    height: 60px;
+    font-size: 20px; 
+    font-weight: 600; 
+    text-align: center; 
+    border-radius: 8px 0 0 8px; 
+    padding: 0 10px ;
+} 
+.c-icon{ 
+    flex: 1; 
+    height: 60px; 
+    line-height: 60px; 
+    padding: 0 5px; 
+    text-align: center; 
+    font-size: 1.4rem; 
+    background: #4d5964; 
+    color: white; 
+    border-radius: 0 8px 8px 0; 
+
+}  
+.button{  
+    margin-top: 25px;  
+    text-align: center; 
+
+
+} 
+.button button{ 
+    border: none; 
+    padding: 10px 30px; 
+    font-size: 20px; 
+    font-weight: 600; 
+    border-radius: 3px; 
+    transition: .5s; 
+   
+}
+.button button:hover{ 
+    background: #000; 
+    color:white
+} 
